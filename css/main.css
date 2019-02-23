@@ -100,3 +100,45 @@ body {
 	        border-radius: 30px;
 }
 
+/* ================= About Company ============== */
+.about-company {
+	height: 1321px;
+	font-family: 'Roboto Slab', serif;
+	background: #edefff url('../img/background-header.jpg') no-repeat top center;
+	text-align: center;
+	color: #fff;
+}
+
+.about-company .container {
+	height: 1321px;
+	}
+
+.about-company__text {
+	width: 900px;
+	min-height: 110px;
+	text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.4);
+}
+
+.about-company__slogan {
+	margin-bottom: 30px;
+	font-size: 72px;
+	font-weight: 300;
+	line-height: 0.67;	
+}
+
+.about-company__note {
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 1.6;
+}
+
+.about-company__features {
+	
+}
+
+.about-company__features li {
+	width: 326px;
+	list-style-type: none;
+}
+
+/* ================= // About Company ============== */
