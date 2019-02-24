@@ -111,11 +111,21 @@ body {
 
 .about-company .container {
 	height: 1321px;
-	}
+	padding-bottom: 138px;
+	display: flex;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-justify-content: flex-end;
+	        justify-content: flex-end;
+	-webkit-align-items: center;
+	        align-items: center;
+}
 
 .about-company__text {
-	width: 900px;
 	min-height: 110px;
+	margin-bottom: 139px;
+	padding-top: 160px;
 	text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.4);
 }
 
@@ -133,12 +143,63 @@ body {
 }
 
 .about-company__features {
-	
+	width: 1110px;
+	margin-bottom: 80px;
+	display: flex;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
 }
 
 .about-company__features li {
 	width: 326px;
 	list-style-type: none;
+}
+
+.about-company__features .feature-image {
+	width: 134px;
+	height: 134px;
+	margin: 0 auto;
+	padding: 0;
+	margin-bottom: 35px;
+}
+
+.about-company__features .feature-title {
+	margin-bottom: 28px;
+	font-family: 'Roboto Slab', serif;
+	font-size: 1.875em;
+	font-weight: 700;
+	line-height: 0.8;
+	color: #fff;
+}
+
+.about-company__features p {
+	font-size: 0.938em;
+	font-weight: 300;
+	line-height: 2;
+}
+
+.btn {
+	display: inline-block;
+	padding-top: 12px;
+	margin: 0 auto;
+	width: 213px;
+	height: 54px;
+	font-family: 'Roboto Slab', serif;
+	font-size: 1.125em;
+	font-weight: 400;
+	line-height: 1.667;
+	text-align: center;
+	-webkit-border-radius: 25px;
+	        border-radius: 25px;
+}
+
+.btn--read-more {
+	color: #612316;
+	text-decoration: none;
+	background-color: #FFF;
 }
 
 /* ================= // About Company ============== */
