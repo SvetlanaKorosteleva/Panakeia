@@ -448,3 +448,51 @@ input[type=email] {
 	color: #fff;
 }
 /* ============= // Product Details ================ */
+
+/* ============= FOOTER =======================*/
+.top-section {
+	min-height: 412px;
+	background-color: #D75D0E;	
+}
+
+.top-section .container {
+	width: 940px;
+	min-height: 412px;
+	display: flex;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+}
+
+.footer-links {
+	width: 142px;
+	min-height: 230px;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-align: center;
+}
+
+.footer-links li:not(:last-child) {
+	margin-bottom: 5px;
+}
+
+.footer-links li a {
+	font-size: 1.125em;
+	font-weight: 400;
+	line-height: 2;
+	text-align: center;
+	color:  #ffffff;
+	text-decoration: none;
+}
+
+.footer-links li a:hover,
+.footer-links li a:focus,
+.footer-links li a:active {
+	text-decoration: underline;
+}
+/* =================== // FOOTER ================== */
