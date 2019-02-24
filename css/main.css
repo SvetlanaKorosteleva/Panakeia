@@ -203,3 +203,36 @@ body {
 }
 
 /* ================= // About Company ============== */
+
+/* ================= OUR NEWS ====================== */
+.our-news {
+	height: 720px;
+	padding-top: 82px;
+	background-color: #edeff1;
+}
+
+.section-title {
+	margin-bottom: 84px;
+	font-family: 'Roboto Slab', serif;
+	font-size: 1.875em;
+	font-weight: 700;
+	line-height: 0.8;
+	text-align: center;
+	color: #31353E;
+}
+
+.news-list {
+	width: 1169px;
+	display: flex;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-justify-content: center;
+	        justify-content: center;
+}
+
+.news-list .news-item {
+	margin: 0;
+	padding: 0;
+}
+/* ================= OUR NEWS ====================== */
