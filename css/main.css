@@ -7,6 +7,16 @@ font-family: 'Roboto Slab', serif; */
 	   -moz-box-sizing: border-box;
 	        box-sizing: border-box;
 }
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  font-size: 0;
+}
+
 body {
 	font-family: 'Roboto', sans-serif;
 	font-size: 0.93em;
@@ -277,5 +287,82 @@ body {
 
 .news-list__item .btn--read-more {
 	order: 4;
+	color:  #4e5159;
+	font-size: 0.938em;
+	font-weight: 300;
+	line-height: 2;
 }
-/* ================= OUR NEWS ====================== */
+/* ============== // OUR NEWS ====================== */
+
+/* ================= Newsletter ==================== */
+.newsletter {
+	height: 374px;
+	display: flex;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-justify-content: center;
+		        justify-content: center;
+
+	background: #FFF url('../img/background-footer.jpg') no-repeat top center;	
+}
+
+.newsletter .section-title--white {
+	margin-bottom: 12px;
+	line-height: 1.6;
+	color: #fff;
+}
+
+.newsletter .text-section {
+	margin-bottom: 43px;
+	font-size: 0.938em;
+	font-weight: 300;
+	line-height: 1.6;
+	text-align: center;
+	color:  #ffffff;
+}
+
+.newsletter .sign-up-form {
+	width: 510px;
+}
+
+.sign-up-form {
+	width: 510px;
+	height: 54px;
+	margin: 0 auto;
+	display: flex;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+}
+
+input[type=email] {
+	position: relative;
+	width: 510px;
+	height: 54px;
+	padding-left: 36px;
+	font-family: 'Roboto Slab', serif;
+	font-size: 1.125em;
+	font-weight: 400;
+	line-height: 1.667;
+	color:  #fff;
+	border: 1px solid rgba(255, 255, 255, 50);
+	outline: none;
+	background-color: rgba(255, 255, 255, 0.2);
+	-webkit-border-radius: 25px;
+	        border-radius: 25px;
+}
+
+.btn--sign-up {
+	position: absolute;
+	right: 420px;
+	width: 213px;
+	padding-top: 0;
+	font-size: 1.125em;
+	font-weight: 400;
+	line-height: 1.667;
+	color: #612316;
+	border: 1px solid #fff;
+	
+}
+/* ============== // Newsletter ==================== */
