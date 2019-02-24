@@ -495,4 +495,30 @@ input[type=email] {
 .footer-links li a:active {
 	text-decoration: underline;
 }
+
+.footer-copyright {
+	min-height: 374px;
+	padding-top: 85px;
+	background: #FFF url('../img/background-footer.jpg') no-repeat top center;
+}
+
+.footer-copyright .footer-copyright__text {
+	font-size: 1.125em;
+	font-weight: 300;
+	line-height: 1.333;
+	text-align: center;
+	color: #fff;
+}
+
+.footer-copyright .footer-copyright__text a {
+	color: #fff;
+	font-weight: 700;
+	text-decoration: none;
+}
+
+.footer-copyright .footer-copyright__text a:hover,
+.footer-copyright .footer-copyright__text a:active,
+.footer-copyright .footer-copyright__text a:focus {
+	text-decoration: underline;
+}
 /* =================== // FOOTER ================== */
