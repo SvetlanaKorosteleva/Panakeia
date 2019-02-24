@@ -439,6 +439,12 @@ input[type=email] {
 	text-decoration: none;
 }
 
+.btn--orange:hover,
+.btn--orange:focus,
+.btn--orange:active {
+	background-color: #4b4e73;
+}
+
 .btn--blue {
 	font-size: 1.125em;
 	font-weight: 400;
@@ -446,6 +452,12 @@ input[type=email] {
 	background-color: #4b4e73;
 	text-decoration: none;
 	color: #fff;
+}
+
+.btn--blue:hover,
+.btn--blue:focus,
+.btn--blue:active {
+	background-color: #dd4b2b;
 }
 /* ============= // Product Details ================ */
 
