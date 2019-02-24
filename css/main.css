@@ -206,7 +206,7 @@ body {
 
 /* ================= OUR NEWS ====================== */
 .our-news {
-	height: 720px;
+	height: 800px;
 	padding-top: 82px;
 	background-color: #edeff1;
 }
@@ -223,16 +223,59 @@ body {
 
 .news-list {
 	width: 1169px;
+	margin: 0 auto;
 	display: flex;
 	-webkit-flex-direction: row;
 	    -ms-flex-direction: row;
 	        flex-direction: row;
-	-webkit-justify-content: center;
-	        justify-content: center;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+}
+
+.news-list .news-list__item {
+	width: 371px;
+	display: flex;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+}
+
+.news-list .news-title {
+	margin-bottom: 10px;
+	font-family: 'Roboto Slab', serif;
+	font-size: 1.5em;
+	font-weight: 700;
+	line-height: 1.25;
+	text-align: center;
+	color: #31353e;
+	order: 2;
 }
 
 .news-list .news-item {
 	margin: 0;
+	margin-bottom: 35px;
 	padding: 0;
+	width: 371px;
+	height: 254px;
+}
+
+.news-list .news-item img {
+	width: 371px;
+	height: 254px;
+	order: 1;
+}
+
+.news-list__item figcaption {
+	margin-bottom: 39px;
+	font-size: 0.938em;
+	font-weight: 300;
+	line-height: 2;
+	text-align: center;
+	color:  #31353e;
+	order: 3;
+}
+
+.news-list__item .btn--read-more {
+	order: 4;
 }
 /* ================= OUR NEWS ====================== */
